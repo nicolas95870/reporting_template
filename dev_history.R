@@ -19,7 +19,7 @@ usethis::use_agpl3_license()
 
 #Modifier la description .
 
-devtools::check()
+
 
 
 ## Step 4 : Mise en place de l'intégration continue
@@ -28,3 +28,13 @@ usethis::use_github_action_check_standard()
 usethis::use_coverage()
 usethis::use_github_action("test-coverage")
 usethis::use_github_action("pkgdown")
+
+
+# Step5 : Création d'un template.
+
+usethis::use_vignette("template")
+usethis::use_build_ignore("vignettes/template.Rmd")
+
+
+devtools::check()
+attachment::att_amend_desc()

@@ -1,0 +1,25 @@
+---
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{template}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#library(flexdashboard)
+#library(shiny)
+#library(shinydashboard)
+library(lubridate)
+
+```
+
+
+<table border="0" cellspacing="0" cellpadding="40" align="left"   width="100%">
+   <tr> <td width="15%%"  bgcolor= "#043344"> logo </td> <td bgcolor= "#043344"><p align="left"><font color="white">&nbsp; Mis à jour : `r Sys.Date()` </font></p><p align="right"><font color="white"> &nbsp; Répondants du date1 au date2 &nbsp;&nbsp;&nbsp;</font></p><p align="left"><font color="white">&nbsp;Rapport National </font></p></td> </tr> 
+</table>
+<br>
+<br>
+<h4 style="color: #62737e"> 1 - NPS et Satisfaction Globale sur les deux derniers trimestres</h4>
+<hr style="height: 2px; color: #7c8494; background-color: #7c8494; width: 100%; border: none;"> <hr/>
